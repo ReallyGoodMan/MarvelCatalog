@@ -85,8 +85,6 @@ const CharList = (props) => {
         )
     }
 
-    console.log('charlist');
-
     const items = renderItems(chars);
 
     const errorMessage = error ? <ErrorMessage/> : null;
